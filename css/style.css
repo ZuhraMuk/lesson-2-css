@@ -1,0 +1,117 @@
+/* селекторы css */
+/* Универсальный селектор */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* по тегу */
+h1 {
+    color: red;
+}
+/* по классу */
+.makers-3 {
+    /* background-color: aqua;
+    background-image: url(); */
+    background: red url();
+}
+/* по id */
+#goole{
+text-decoration: none;
+border: 2px solid blue;
+margin: 20px;
+padding: 40px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* margin: 10px; */
+    /* margin: 10px 20px; */
+    /* margin: 10px 20px 30px; */
+    margin: 10px 20px 30px 40px;
+    padding: 30px;
+    /* display: none; */
+    /* display: inline; */
+    /* display: inline-block; */
+    display: block;
+}
+.block-size {
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+/* * {
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(29, 206, 82) !important;
+ }
+
+ h1  {
+    color: blue; 
+    font-size: 26px; 
+    font-weight: 300; 
+    background-color: rgb(62, 233, 176);
+} */
+
+
+/* .blocks {
+    background-color: tomato !important;
+    color: yellow;
+    font-size: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+.extra {
+    background-color: aquamarine !important;
+}
+
+.title {
+    color: pink;
+} 
+
+#block-4 {
+    width: 200px;
+    height: 100px;
+    color: rgb(22, 63, 197);
+    background-color: yellow !important;
+    font-size: 20px;
+}*/
+
+/* div {
+    background-color: rgb(219, 48, 176) ; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 10px; 
+    color: rgb(14, 17, 165); 
+    font-size: 60px; 
+    text-align: center;
+     margin: 10px 20px 30px 40px; 
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    
+}  */
+
+/* #block-1 {
+background-color: rgb(175, 18, 214);
+width: 200px;
+height: 200px;
+color: white;
+font-size: 40px;
+border: 5px yellow solid;
+padding: 10px 20px 30px 40px; 
+padding-top: 40px;
+padding-right: 30px;
+padding-bottom: 20px;
+padding-left: 10px;
+} */
+
+#style-text {
+    font-family: 'Dancing Script', cursive;
+}
+#style-text1 {
+    font-family: 'Rubik Moonrocks', cursive;
+}
